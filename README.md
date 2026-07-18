@@ -1,6 +1,6 @@
 # ASRF Reproduction Experiment
 
-本仓库是本人基于论文 **Alleviating Over-segmentation Errors by Detecting Action Boundaries** 官方代码整理的复现实验项目。项目主要用于科研实践考核，也用于记录和维护本人对 ASRF 方法的理解、代码排错、实验复现、结果分析和可视化工具。
+本仓库是本人基于论文 **Alleviating Over-segmentation Errors by Detecting Action Boundaries** 官方代码整理的复现实验项目。用于记录和维护本人对 ASRF 方法的理解、代码排错、实验复现、结果分析和可视化工具。
 
 原始论文：
 
@@ -64,7 +64,7 @@
    export/gtea_split1_asrf/
    ```
 
-   其中包含配置、权重、指标、可视化图片、预测数组和实验记录。注意 `export/` 默认不提交到 Git。
+   其中包含配置、权重、指标、可视化图片、预测数组和实验记录。
 
 ## Repository Structure
 
@@ -84,32 +84,10 @@
 `-- README.md
 ```
 
-以下目录为本地数据或实验产物，默认被 `.gitignore` 排除：
-
-```text
-dataset/
-dataset_/
-result/
-export/
-*.prm
-*.pth
-*.npy
-*.log
-```
 
 ## Environment
 
-本项目原始依赖较旧，论文代码要求大致为：
-
-```text
-Python >= 3.7
-PyTorch >= 1.0
-torchvision
-pandas
-numpy
-Pillow
-PyYAML
-```
+本项目原始依赖较旧，
 
 本人当前实验环境为 Windows + Conda：
 
@@ -122,18 +100,12 @@ GPU: NVIDIA GeForce RTX 5070 Laptop GPU
 
 核心依赖安装示例：
 
-```powershell
+```
 conda create -n asrf python=3.10 -y
 conda activate asrf
 
 pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
 pip install pandas PyYAML tqdm matplotlib opencv-python scikit-image scikit-learn scipy pillow
-```
-
-如果网络访问 PyPI 不稳定，可使用清华镜像：
-
-```powershell
-pip install -i https://pypi.tuna.tsinghua.edu.cn/simple pandas PyYAML tqdm matplotlib opencv-python scikit-image scikit-learn scipy pillow
 ```
 
 ## Dataset Preparation
@@ -257,70 +229,6 @@ Refine
 Boundary
 ```
 
-## Current GTEA Split-1 Result
-
-当前一次 GTEA split-1、20 epoch 实验结果如下：
-
-| Method | Frame-wise Acc | Edit | F1@10 | F1@25 | F1@50 |
-|---|---:|---:|---:|---:|---:|
-| Before refinement | 71.28 | 83.83 | 86.99 | 84.76 | 72.12 |
-| After boundary refinement | 68.72 | 76.57 | 84.90 | 81.63 | 71.84 |
-
-Boundary branch:
-
-| Boundary Acc | Precision | Recall | Boundary F1 |
-|---:|---:|---:|---:|
-| 97.64 | 50.00 | 60.47 | 54.74 |
-
-本次实验中，boundary refinement 后指标下降。该现象可作为失败案例分析：当 BRB 边界预测不够稳定时，基于边界切段后的 majority vote 可能错误合并或覆盖 ASB 中原本正确的局部预测。
-
-这与原论文中对 refinement 失败情况的讨论并不矛盾。论文也指出，即使使用真实边界，segment-level majority voting 仍可能在某些情况下使结果变差。
-
-## Exported Artifacts
-
-本地整理后的考核结果包位于：
-
-```text
-export/gtea_split1_asrf/
-```
-
-包含：
-
-```text
-config.yaml
-README.md
-weights/final_model.prm
-metrics/*.csv
-notes/experiment_note.md
-predictions/*_timeline.png
-prediction_arrays/*.npy
-boundary_plots/*_boundary.png
-```
-
-该目录默认不提交到 GitHub。如果需要提交结果，请先确认文件大小和数据/权重共享要求。
-
-## Git Workflow
-
-当前远程仓库：
-
-```text
-https://github.com/Damer-F/asrf.git
-```
-
-由于网络环境原因，本地 remote 使用：
-
-```text
-https://gh-proxy.org/https://github.com/Damer-F/asrf.git
-```
-
-常用维护流程：
-
-```powershell
-git status
-git add .
-git commit -m "update message"
-git push
-```
 
 ## License and Citation
 

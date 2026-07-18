@@ -1,0 +1,12 @@
+feature,label,boundary
+./dataset\50salads\features\#bu.npy,./dataset\50salads\gt_arr\#bu.npy,./dataset\50salads\gt_boundary_arr\#bu.npy
+/media/data/yfarha/Datasets/50salads/data/groundTruth/rgb-.npy,/media/data/yfarha/Datasets/50salads/data/groundTruth/rgb-.npy,/media/data/yfarha/Datasets/50salads/data/groundTruth/rgb-.npy
+/media/data/yfarha/Datasets/50salads/data/groundTruth/rgb-.npy,/media/data/yfarha/Datasets/50salads/data/groundTruth/rgb-.npy,/media/data/yfarha/Datasets/50salads/data/groundTruth/rgb-.npy
+/media/data/yfarha/Datasets/50salads/data/groundTruth/rgb-.npy,/media/data/yfarha/Datasets/50salads/data/groundTruth/rgb-.npy,/media/data/yfarha/Datasets/50salads/data/groundTruth/rgb-.npy
+/media/data/yfarha/Datasets/50salads/data/groundTruth/rgb-.npy,/media/data/yfarha/Datasets/50salads/data/groundTruth/rgb-.npy,/media/data/yfarha/Datasets/50salads/data/groundTruth/rgb-.npy
+/media/data/yfarha/Datasets/50salads/data/groundTruth/rgb-.npy,/media/data/yfarha/Datasets/50salads/data/groundTruth/rgb-.npy,/media/data/yfarha/Datasets/50salads/data/groundTruth/rgb-.npy
+/media/data/yfarha/Datasets/50salads/data/groundTruth/rgb-.npy,/media/data/yfarha/Datasets/50salads/data/groundTruth/rgb-.npy,/media/data/yfarha/Datasets/50salads/data/groundTruth/rgb-.npy
+/media/data/yfarha/Datasets/50salads/data/groundTruth/rgb-.npy,/media/data/yfarha/Datasets/50salads/data/groundTruth/rgb-.npy,/media/data/yfarha/Datasets/50salads/data/groundTruth/rgb-.npy
+/media/data/yfarha/Datasets/50salads/data/groundTruth/rgb-.npy,/media/data/yfarha/Datasets/50salads/data/groundTruth/rgb-.npy,/media/data/yfarha/Datasets/50salads/data/groundTruth/rgb-.npy
+/media/data/yfarha/Datasets/50salads/data/groundTruth/rgb-.npy,/media/data/yfarha/Datasets/50salads/data/groundTruth/rgb-.npy,/media/data/yfarha/Datasets/50salads/data/groundTruth/rgb-.npy
+/media/data/yfarha/Datasets/50salads/data/groundTruth/rgb-.npy,/media/data/yfarha/Datasets/50salads/data/groundTruth/rgb-.npy,/media/data/yfarha/Datasets/50salads/data/groundTruth/rgb-.npy

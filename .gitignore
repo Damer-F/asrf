@@ -1,0 +1,29 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Local environments and editor state
+.venv/
+venv/
+.vscode/
+
+# Datasets and generated experiment artifacts
+dataset/
+dataset_/
+result/
+export/
+A_EXAM.md
+
+# Model weights, arrays, logs, and generated media
+*.prm
+*.pth
+*.npy
+*.npz
+*.log
+*_timeline.png
+*_boundary.png
+
+# OS files
+.DS_Store
+Thumbs.db

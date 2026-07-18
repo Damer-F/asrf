@@ -1,0 +1,12 @@
+feature,label,boundary
+./dataset\50salads\features\#bundle.npy,./dataset\50salads\gt_arr\#bundle.npy,./dataset\50salads\gt_boundary_arr\#bundle.npy
+/media/data/yfarha/Datasets/50salads/data/groundTruth/rgb-01-1.npy,/media/data/yfarha/Datasets/50salads/data/groundTruth/rgb-01-1.npy,/media/data/yfarha/Datasets/50salads/data/groundTruth/rgb-01-1.npy
+/media/data/yfarha/Datasets/50salads/data/groundTruth/rgb-01-2.npy,/media/data/yfarha/Datasets/50salads/data/groundTruth/rgb-01-2.npy,/media/data/yfarha/Datasets/50salads/data/groundTruth/rgb-01-2.npy
+/media/data/yfarha/Datasets/50salads/data/groundTruth/rgb-02-1.npy,/media/data/yfarha/Datasets/50salads/data/groundTruth/rgb-02-1.npy,/media/data/yfarha/Datasets/50salads/data/groundTruth/rgb-02-1.npy
+/media/data/yfarha/Datasets/50salads/data/groundTruth/rgb-02-2.npy,/media/data/yfarha/Datasets/50salads/data/groundTruth/rgb-02-2.npy,/media/data/yfarha/Datasets/50salads/data/groundTruth/rgb-02-2.npy
+/media/data/yfarha/Datasets/50salads/data/groundTruth/rgb-03-1.npy,/media/data/yfarha/Datasets/50salads/data/groundTruth/rgb-03-1.npy,/media/data/yfarha/Datasets/50salads/data/groundTruth/rgb-03-1.npy
+/media/data/yfarha/Datasets/50salads/data/groundTruth/rgb-03-2.npy,/media/data/yfarha/Datasets/50salads/data/groundTruth/rgb-03-2.npy,/media/data/yfarha/Datasets/50salads/data/groundTruth/rgb-03-2.npy
+/media/data/yfarha/Datasets/50salads/data/groundTruth/rgb-04-1.npy,/media/data/yfarha/Datasets/50salads/data/groundTruth/rgb-04-1.npy,/media/data/yfarha/Datasets/50salads/data/groundTruth/rgb-04-1.npy
+/media/data/yfarha/Datasets/50salads/data/groundTruth/rgb-04-2.npy,/media/data/yfarha/Datasets/50salads/data/groundTruth/rgb-04-2.npy,/media/data/yfarha/Datasets/50salads/data/groundTruth/rgb-04-2.npy
+/media/data/yfarha/Datasets/50salads/data/groundTruth/rgb-05-1.npy,/media/data/yfarha/Datasets/50salads/data/groundTruth/rgb-05-1.npy,/media/data/yfarha/Datasets/50salads/data/groundTruth/rgb-05-1.npy
+/media/data/yfarha/Datasets/50salads/data/groundTruth/rgb-05-2.npy,/media/data/yfarha/Datasets/50salads/data/groundTruth/rgb-05-2.npy,/media/data/yfarha/Datasets/50salads/data/groundTruth/rgb-05-2.npy

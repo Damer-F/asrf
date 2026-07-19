@@ -42,10 +42,10 @@ def main() -> None:
             os.mkdir(save_dir)
 
         train_splits_paths = glob.glob(
-            os.path.join(args.dataset_dir, dataset, "splits", "train.*")
+            os.path.join(args.dataset_dir, dataset, "splits", "train.split*.bundle")
         )
         test_splits_paths = glob.glob(
-            os.path.join(args.dataset_dir, dataset, "splits", "test.*")
+            os.path.join(args.dataset_dir, dataset, "splits", "test.split*.bundle")
         )
 
         train_splits_paths = sorted(train_splits_paths)

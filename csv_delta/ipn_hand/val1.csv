@@ -1,0 +1,15 @@
+feature,label,boundary
+dataset/ipn_hand\features_keypoint_delta\1CM42_12_R_#158.npy,dataset/ipn_hand\gt_arr\1CM42_12_R_#158.npy,dataset/ipn_hand\gt_boundary_arr\1CM42_12_R_#158.npy
+dataset/ipn_hand\features_keypoint_delta\1CM42_17_R_#192.npy,dataset/ipn_hand\gt_arr\1CM42_17_R_#192.npy,dataset/ipn_hand\gt_boundary_arr\1CM42_17_R_#192.npy
+dataset/ipn_hand\features_keypoint_delta\1CM42_26_R_#174.npy,dataset/ipn_hand\gt_arr\1CM42_26_R_#174.npy,dataset/ipn_hand\gt_boundary_arr\1CM42_26_R_#174.npy
+dataset/ipn_hand\features_keypoint_delta\1CM42_3_R_#196.npy,dataset/ipn_hand\gt_arr\1CM42_3_R_#196.npy,dataset/ipn_hand\gt_boundary_arr\1CM42_3_R_#196.npy
+dataset/ipn_hand\features_keypoint_delta\1CM42_7_L_#202.npy,dataset/ipn_hand\gt_arr\1CM42_7_L_#202.npy,dataset/ipn_hand\gt_boundary_arr\1CM42_7_L_#202.npy
+dataset/ipn_hand\features_keypoint_delta\1CV12_13_R_#96.npy,dataset/ipn_hand\gt_arr\1CV12_13_R_#96.npy,dataset/ipn_hand\gt_boundary_arr\1CV12_13_R_#96.npy
+dataset/ipn_hand\features_keypoint_delta\1CV12_22_R_#114.npy,dataset/ipn_hand\gt_arr\1CV12_22_R_#114.npy,dataset/ipn_hand\gt_boundary_arr\1CV12_22_R_#114.npy
+dataset/ipn_hand\features_keypoint_delta\1CV12_2_R_#72.npy,dataset/ipn_hand\gt_arr\1CV12_2_R_#72.npy,dataset/ipn_hand\gt_boundary_arr\1CV12_2_R_#72.npy
+dataset/ipn_hand\features_keypoint_delta\1CV12_8_R_#86.npy,dataset/ipn_hand\gt_arr\1CV12_8_R_#86.npy,dataset/ipn_hand\gt_boundary_arr\1CV12_8_R_#86.npy
+dataset/ipn_hand\features_keypoint_delta\4CM11_11_R_#4.npy,dataset/ipn_hand\gt_arr\4CM11_11_R_#4.npy,dataset/ipn_hand\gt_boundary_arr\4CM11_11_R_#4.npy
+dataset/ipn_hand\features_keypoint_delta\4CM11_16_R_#210.npy,dataset/ipn_hand\gt_arr\4CM11_16_R_#210.npy,dataset/ipn_hand\gt_boundary_arr\4CM11_16_R_#210.npy
+dataset/ipn_hand\features_keypoint_delta\4CM11_19_R_#20.npy,dataset/ipn_hand\gt_arr\4CM11_19_R_#20.npy,dataset/ipn_hand\gt_boundary_arr\4CM11_19_R_#20.npy
+dataset/ipn_hand\features_keypoint_delta\4CM11_26_R_#6.npy,dataset/ipn_hand\gt_arr\4CM11_26_R_#6.npy,dataset/ipn_hand\gt_boundary_arr\4CM11_26_R_#6.npy
+dataset/ipn_hand\features_keypoint_delta\4CM11_2_R_#40.npy,dataset/ipn_hand\gt_arr\4CM11_2_R_#40.npy,dataset/ipn_hand\gt_boundary_arr\4CM11_2_R_#40.npy

@@ -10,12 +10,12 @@ from torchvision.transforms.transforms import Compose
 
 __all__ = ["ActionSegmentationDataset", "collate_fn"]
 
-dataset_names = ["50salads", "breakfast", "gtea"]
+dataset_names = ["50salads", "breakfast", "gtea", "ipn_hand"]
 modes = ["training", "validation", "trainval", "test"]
 
 
 class ActionSegmentationDataset(Dataset):
-    """ Action Segmentation Dataset (50salads, gtea, breakfast) """
+    """ Action Segmentation Dataset (50salads, gtea, breakfast, ipn_hand) """
 
     def __init__(
         self,
@@ -29,7 +29,7 @@ class ActionSegmentationDataset(Dataset):
         super().__init__()
         """
             Args:
-                dataset: the name of dataset (50salads, gtea, breakfast)
+                dataset: the name of dataset (50salads, gtea, breakfast, ipn_hand)
                 transform: torchvision.transforms.Compose([...])
                 mode: training, validation, test
                 split: which split of train, val and test do you want to use in csv files.(default:1)
@@ -38,7 +38,7 @@ class ActionSegmentationDataset(Dataset):
 
         assert (
             dataset in dataset_names
-        ), "You have to choose 50saladas, gtea, breakfast as dataset."
+        ), "You have to choose 50salads, gtea, breakfast or ipn_hand as dataset."
 
         if mode == "training":
             self.df = pd.read_csv(

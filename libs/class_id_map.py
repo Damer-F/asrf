@@ -3,19 +3,19 @@ from typing import Dict
 
 __all__ = ["get_class2id_map", "get_id2class_map", "get_n_classes"]
 
-dataset_names = ["50salads", "breakfast", "gtea"]
+dataset_names = ["50salads", "breakfast", "gtea", "ipn_hand"]
 
 
 def get_class2id_map(dataset: str, dataset_dir: str = "./dataset") -> Dict[str, int]:
     """
     Args:
-        dataset: 50salads, gtea, breakfast
+        dataset: 50salads, gtea, breakfast, ipn_hand
         dataset_dir: the path to the datset directory
     """
 
     assert (
         dataset in dataset_names
-    ), "You have to choose 50salads, gtea or breakfast as dataset."
+    ), "You have to choose 50salads, gtea, breakfast or ipn_hand as dataset."
 
     with open(os.path.join(dataset_dir, "{}/mapping.txt".format(dataset)), "r") as f:
         actions = f.read().split("\n")[:-1]

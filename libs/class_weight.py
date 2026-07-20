@@ -9,7 +9,7 @@ from libs.class_id_map import get_n_classes
 
 __all__ = ["get_pos_weight", "get_class_weight"]
 
-dataset_names = ["50salads", "breakfast", "gtea"]
+dataset_names = ["50salads", "breakfast", "gtea", "ipn_hand"]
 modes = ["training", "trainval"]
 
 
@@ -34,7 +34,7 @@ def get_class_nums(
 
     assert (
         dataset in dataset_names
-    ), "You have to select 50salads, gtea or breakfast as dataset."
+    ), "You have to select 50salads, gtea, breakfast or ipn_hand as dataset."
 
     n_classes = get_n_classes(dataset, dataset_dir)
 
@@ -92,7 +92,7 @@ def get_pos_weight(
 
     assert (
         dataset in dataset_names
-    ), "You have to select 50salads, gtea or breakfast as dataset."
+    ), "You have to select 50salads, gtea, breakfast or ipn_hand as dataset."
 
     if mode == "training":
         df = pd.read_csv(os.path.join(csv_dir, dataset, "train{}.csv").format(split))
